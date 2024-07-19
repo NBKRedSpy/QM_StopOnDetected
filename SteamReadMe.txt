@@ -10,7 +10,7 @@ Prevents the player from being "ambushed" by enemies that were detected because 
 
 [h1]Support[/h1]
 
-If you enjoy my mods and want to leave a tip, check out my [url=https://ko-fi.com/nbkredspy71915]Ko-Fi[/url] page.
+If you enjoy my mods and want to buy me a coffee, check out my [url=https://ko-fi.com/nbkredspy71915]Ko-Fi[/url] page.
 Thanks!
 
 [h1]Source Code[/h1]
