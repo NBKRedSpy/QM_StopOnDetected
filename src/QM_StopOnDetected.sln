@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QM_StopOnDetected", "QM_StopOnDetected.csproj", "{6137F82E-0E80-4C2A-9781-40F5D3685840}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6137F82E-0E80-4C2A-9781-40F5D3685840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6137F82E-0E80-4C2A-9781-40F5D3685840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6137F82E-0E80-4C2A-9781-40F5D3685840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6137F82E-0E80-4C2A-9781-40F5D3685840}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {166B1355-E8B9-47F0-886A-73EECC353DB4}
+	EndGlobalSection
+EndGlobal
