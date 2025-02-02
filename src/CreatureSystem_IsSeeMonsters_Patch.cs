@@ -33,7 +33,7 @@ namespace QM_StopOnDetected
 
                 if (monster == null) continue;
 
-                MapCell cell = mapGrid.GetCell(creature.pos, checkBorders: false);
+                MapCell cell = mapGrid.GetCell(creature.CreatureData.Position, checkBorders: false);
                 if (!creature.IsAlly(creatures.Player) && monster.ShowSignal)
                 {
                     __result = true;

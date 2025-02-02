@@ -18,7 +18,7 @@ namespace QM_StopOnDetected
         [Hook(ModHookType.AfterConfigsLoaded)]
         public static void AfterConfig(IModContext context)
         {
-            new Harmony("_" + ModAssemblyName).PatchAll();
+            new Harmony("NBK_RedSpy_" + ModAssemblyName).PatchAll();
         }
     }
 }
