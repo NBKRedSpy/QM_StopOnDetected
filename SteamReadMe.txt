@@ -19,6 +19,11 @@ Source code is available on GitHub at https://github.com/NBKRedSpy/QM_StopOnDete
 
 [h1]Change Log[/h1]
 
+[h2]1.1.1[/h2]
+[list]
+[*]Fixes issue where player could not change movement speed if the mod stopped the player.  Thanks goes to the🅱adman on the Quasimorph Official Discord for reporting this.
+[/list]
+
 [h2]1.1.0[/h2]
 [list]
 [*]v0.8.5 compatible.
