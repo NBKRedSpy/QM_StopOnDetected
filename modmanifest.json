@@ -1,7 +1,11 @@
 {
-    "UniqueModName": "nbk_redspy_QM_StopOnDetected",
+    "UniqueModName": "nbk_redspy_QM_StopOnDetected_beta",
     "Assemblies": [
         "QM_StopOnDetected.dll"
     ],
-    "Dependencies": []
+"Dependencies": [],
+  "SteamTags": [
+    "0.9.1",
+    "Quality of Life"
+  ]
 }

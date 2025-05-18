@@ -1,12 +1,17 @@
 [h1]Quasimorph Stop on Monster Detected[/h1]
 
 
-Stops the movement queue when a creature is detected in stealth mode.
-The red star is the detected indicator.
+[h1]Imporant![/h1]
 
-Hold the Ctrl key to not stop.
+This is for the opt in 0.9.1 beta and does not work for the current release.  Use the version of the mod without the beta suffix.
 
-Prevents the player from being "ambushed" by enemies that were detected because the player didn't abort the movement in time.
+[h1]Docs[/h1]
+
+As of 0.9.1 beta, the player will now stop movement any time a visible or detected enemy is detected.  The detected units are represented by the red * on a tile.
+
+This mod allows the user to hold down the control key and continue walking if there are only detected units.  This does not affect seen units.
+
+This is helpful when the player needs to walk down a long hallway and there are detected units that will not be in a position to attack the player.
 
 [h1]Support[/h1]
 
@@ -18,6 +23,11 @@ Thanks!
 Source code is available on GitHub at https://github.com/NBKRedSpy/QM_StopOnDetected
 
 [h1]Change Log[/h1]
+
+[h2]2.0[/h2]
+[list]
+[*]Compatibility with 0.9.1.  Removed the duplicate "stop on detection" that the base game now does.
+[/list]
 
 [h2]1.1.1[/h2]
 [list]
