@@ -24,7 +24,7 @@ namespace QM_StopOnDetected
         public static void Prefix(Monster __instance)
         {
             //Store this so the Postfix can abort early.
-            PreviousHasSpottedEnemyThisAP = __instance._creatures.Player.HasSpottedEnemyThisAP;
+            PreviousHasSpottedEnemyThisAP = __instance?._creatures?.Player?.HasSpottedEnemyThisAP ?? false;
         }
 
         public static void Postfix(Monster __instance)
@@ -41,7 +41,11 @@ namespace QM_StopOnDetected
             //Check if the control keys is being held down            
             if (!(Input.GetKey(KeyCode.LeftControl) ||  Input.GetKey(KeyCode.RightControl))) return;
 
-            __instance._creatures.Player.HasSpottedEnemyThisAP = false;
+            Player player = __instance?._creatures?.Player;
+
+            if (player == null) return;
+
+            player.HasSpottedEnemyThisAP = false;
         }
     }
 }

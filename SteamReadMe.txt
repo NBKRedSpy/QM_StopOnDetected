@@ -24,7 +24,12 @@ Source code is available on GitHub at https://github.com/NBKRedSpy/QM_StopOnDete
 
 [h1]Change Log[/h1]
 
-[h2]2.0[/h2]
+[h2]2.0.1[/h2]
+[list]
+[*]Fix:  Was black locking the game when a new level was generated.  Thank you to Discord user Crd for reporting this.
+[/list]
+
+[h2]2.0.0[/h2]
 [list]
 [*]Compatibility with 0.9.1.  Removed the duplicate "stop on detection" that the base game now does.
 [/list]
