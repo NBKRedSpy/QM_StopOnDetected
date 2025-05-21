@@ -22,9 +22,11 @@ Thanks!
 Source code is available on GitHub at https://github.com/NBKRedSpy/QM_StopOnDetected
 
 # Change Log
+## 2.1.0 
+* Game But Workaround:  Workaround for game issue where allies also stop movement.  Thanks to Steam user endersteve_mine for reporting this issue.
+
 ## 2.0.1
 * Fix:  Was black locking the game when a new level was generated.  Thank you to Discord user Crd for reporting this.
-
 
 ## 2.0.0
 * Compatibility with 0.9.1.  Removed the duplicate "stop on detection" that the base game now does.

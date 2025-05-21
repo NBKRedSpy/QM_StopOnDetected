@@ -38,14 +38,15 @@ namespace QM_StopOnDetected
 
             if (PreviousHasSpottedEnemyThisAP == true) return;  //Something else already triggered the flag.
 
-            //Check if the control keys is being held down            
-            if (!(Input.GetKey(KeyCode.LeftControl) ||  Input.GetKey(KeyCode.RightControl))) return;
-
             Player player = __instance?._creatures?.Player;
 
-            if (player == null) return;
+            if(player == null) return;
 
-            player.HasSpottedEnemyThisAP = false;
+            //Ignore allies or if the control key is pressed.
+            if (Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl) || player.IsAlly(__instance))
+            {
+                player.HasSpottedEnemyThisAP = false;
+            }
         }
     }
 }
