@@ -26,7 +26,7 @@ Source code is available on GitHub at https://github.com/NBKRedSpy/QM_StopOnDete
 
 [h2]2.1.0[/h2]
 [list]
-[*]Game But Workaround:  Workaround for game issue where allies also stop movement.  Thanks to Steam user endersteve_mine for reporting this issue.
+[*]Game Bug Workaround:  Workaround for game issue where allies also stop movement.  Thanks to Steam user endersteve_mine for reporting this issue.
 [/list]
 
 [h2]2.0.1[/h2]

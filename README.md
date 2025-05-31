@@ -2,7 +2,6 @@
 
 ![Movement path with X's for cancel](media/thumbnail.png)
 
-
 # Imporant!
 This is for the opt in 0.9.1 beta and does not work for the current release.  Use the version of the mod without the beta suffix.
 
@@ -23,7 +22,7 @@ Source code is available on GitHub at https://github.com/NBKRedSpy/QM_StopOnDete
 
 # Change Log
 ## 2.1.0 
-* Game But Workaround:  Workaround for game issue where allies also stop movement.  Thanks to Steam user endersteve_mine for reporting this issue.
+* Game Bug Workaround:  Workaround for game issue where allies also stop movement.  Thanks to Steam user endersteve_mine for reporting this issue.
 
 ## 2.0.1
 * Fix:  Was black locking the game when a new level was generated.  Thank you to Discord user Crd for reporting this.
