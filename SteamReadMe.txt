@@ -1,14 +1,6 @@
 [h1]Quasimorph Stop on Monster Detected[/h1]
 
 
-[h1]Imporant![/h1]
-
-This is for the opt in 0.9.1 beta and does not work for the current release.  Use the version of the mod without the beta suffix.
-
-[h1]Docs[/h1]
-
-As of 0.9.1 beta, the player will now stop movement any time a visible or detected enemy is detected.  The detected units are represented by the red * on a tile.
-
 This mod allows the user to hold down the control key and continue walking if there are only detected units.  This does not affect seen units.
 
 This is helpful when the player needs to walk down a long hallway and there are detected units that will not be in a position to attack the player.
