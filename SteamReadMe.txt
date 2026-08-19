@@ -1,9 +1,13 @@
 [h1]Quasimorph Stop on Monster Detected[/h1]
 
 
-This mod allows the user to hold down the control key and continue walking if there are only detected units.  This does not affect seen units.
+[h2]Description[/h2]
 
-This is helpful when the player needs to walk down a long hallway and there are detected units that will not be in a position to attack the player.
+This mod allows the user to keep moving even if new enemies are detected. For instance, while walking down a long hallway, the merc will stop every time a new enemy is detected (the red asterisk).  This can stop the movement of the merc many times.
+
+[h2]How the Game Works[/h2]
+
+The game will stop the merc anytime a [i]new[/i] contact has been found.  The same enemy in the detection radius will not stop the merc again.  However, if that enemy goes out of range and is detected again the merc will stop each time.
 
 [h1]Support[/h1]
 

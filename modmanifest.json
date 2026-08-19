@@ -1,5 +1,5 @@
 {
-    "UniqueModName": "nbk_redspy_QM_StopOnDetected",
+    "UniqueModName": "nbk_redspy_QM_ContinueOnDetected",
     "Assemblies": [
         "QM_StopOnDetected.dll"
     ],
