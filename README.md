@@ -1,12 +1,14 @@
-# Quasimorph Stop on Monster Detected
+# Quasimorph Force Continue on Monster Detected
 
 ![Movement path with X's for cancel](media/thumbnail.png)
 
 ## Description
-This mod allows the user to keep moving even if new enemies are detected. For instance, while walking down a long hallway, the merc will stop every time a new enemy is detected (the red asterisk).  This can stop the movement of the merc many times.
+This mod allows the user to hold down the ctrl key to keep moving even if new enemies are detected. Detected enemies have a red asterisk. 
+
+For instance, while walking down a long hallway, the merc will stop every time a new enemy is detected.  This can stop the movement of the merc many times when there are long hallways with many enemies in adjacent rooms.
 
 ## How the Game Works
-The game will stop the merc anytime a *new* contact has been found.  The same enemy in the detection radius will not stop the merc again.  However, if that enemy goes out of range and is detected again the merc will stop each time.  
+The game will stop the merc anytime an enemy comes into detected range.  If the enemy stays detected, the merc will not stop.  However, if that enemy goes out of range and is detected again, the merc will be stopped again.
 
 # Support
 If you enjoy my mods and want to buy me a coffee, check out my [Ko-Fi](https://ko-fi.com/nbkredspy71915) page.
